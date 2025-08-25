@@ -1,8 +1,7 @@
-Classification of Alzheimer’s Disease from Brain MRI Using a Lightweight Convolutional Neural Network and Interpretable Artificial Intelligence
-This repository contains code for training the lightWeight CNN models,  trained models, and visual explanations for classifying Alzheimer’s Disease from structural brain MRI.
+
+
 We use a lightweight convolutional neural network (CNN) implemented in TensorFlow/Keras to discriminate between multiple cognitive states (e.g., Non Demented, Very Mild Demented, Mild Demented, Moderate Demented).
 
-For interpretability, we apply LIME (Local Interpretable Model-Agnostic Explanations) to visualize which brain regions most strongly influenced the model’s predictions.
 
 Repository Contents
 
@@ -14,11 +13,6 @@ models/ — directory with trained .keras model weights:
   final_AD4_CNNs_5cnnL_10f.keras
   model64_AD4_OAsis_5cnnl.keras
 
-Data availability
-All datasets used in this study are publicly available. The first dataset, "Alzheimer’s Dataset (4 Class of Images)," was
-originally published on Kaggle at the following URL (accessed on [September 04, 2023]): https://www.kaggle.
-com/datasets/tourist55/alzheimers-dataset-4-class-of-images, although the link is not currently
-accessible. The copies of this dataset are available on Kaggle. The second dataset, "OASIS Alzheimer’s Detection," can be
-accessed at https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data.
+
 
 ⚠️ Disclaimer: This project is intended for research and educational purpose
